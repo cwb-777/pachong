@@ -1,0 +1,795 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" >
+    <title itemprop="name"></title>
+        <link rel='stylesheet' href='/stylesheets/autoptimize_10267d1c9d0bbbad8d3659cab14f9b8b.css' />
+    <script>var title = document.title;
+    // window 失去焦点
+    window.onblur = function () {
+        document.title = '跑哪去了！';
+    };
+    // window 获得焦点
+    window.onfocus = function () {
+        document.title = '你回来了~';
+        setTimeout( "document.title=title", 3000 );
+    }
+    </script>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <!-- <link rel="shortcut icon" href="https://ley.best/wp-content/themes/ASky/images/favicon.ico"/> -->
+    <!-- <link rel='dns-prefetch' href='//ley21.oss-accelerate.aliyuncs.com' /> -->
+    <!-- <link rel='dns-prefetch' href='//cdn.bootcss.com' /> -->
+    <!-- <link rel='dns-prefetch' href='//s.w.org' />  -->
+    <script type='text/javascript' src='/javascripts/jquery.min.js'></script>
+    <!-- <script type='text/javascript' src='https://cdn.bootcss.com/jquery-migrate/3.0.0/jquery-migrate.min.js'></script>  -->
+    <!-- <link rel='https://api.w.org/' href='https://ley.best/wp-json/' /> -->
+    <!-- <link rel="canonical" href="https://ley.best/links/" /> -->
+    <!-- <link rel='shortlink' href='https://ley.best/?p=688' /> -->
+    <meta name="referrer" content="never">
+    <!-- <script type="text/javascript">
+     jQuery(function(){
+
+ jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+   var arr = jQuery("a[data-fancybox]");
+               jQuery.each(arr, function() {
+                 var title = jQuery(this).children("img").attr("title");
+                  var caption = jQuery(this).next("figcaption").html();
+                                     if(caption && title){jQuery(this).attr("title",title+" " + caption)}else if(title){ jQuery(this).attr("title",title);}else if(caption){jQuery(this).attr("title",caption);}
+               });     }
+
+ // Supported file extensions
+
+             var thumbnails = jQuery("a:has(img)").not(".nolightbox").not('.envira-gallery-link').not('.ngg-simplelightbox').filter(function () {
+         return /\.(jpe?g|png|gif|mp4|webp|bmp|pdf)(\?[^/]*)*$/i.test(jQuery(this).attr('href'))
+     });
+
+
+ // Add data-type iframe for links that are not images or videos.
+     var iframeLinks = jQuery('.fancyboxforwp').filter( function() { return ! /\.(jpe?g|png|gif|mp4|webp|bmp|pdf)(\?[^/]*)*$/i.test(jQuery(this).attr('href')) }).filter( function() { return ! /vimeo|youtube/i.test(jQuery(this).attr('href')) });
+     iframeLinks.attr({ "data-type" : "iframe" }).getTitle();
+
+     // Gallery All
+ thumbnails.addClass("fancyboxforwp").attr("data-fancybox","gallery").getTitle();
+     iframeLinks.attr({ "data-fancybox":"gallery" }).getTitle();
+
+ // Gallery type NONE
+
+
+
+ // Call fancybox and apply it on any link with a rel atribute that starts with "fancybox", with the options set on the admin panel
+ jQuery("a.fancyboxforwp").fancyboxforwp({
+   loop: false,
+   smallBtn: false,
+   zoomOpacity: "auto",
+   animationEffect: "fade",
+   animationDuration: 500,
+   transitionEffect: "fade",
+   transitionDuration : "300",
+   overlayShow: true,
+   overlayOpacity: "0.3",
+   titleShow: true,
+   titlePosition: "inside",
+   keyboard: true,
+   showCloseButton: false,
+   arrows: true,
+   clickContent: false,
+         clickSlide: "close",
+   wheel: false,
+   toolbar: true,
+   preventCaptionOverlap: true,
+   onInit: function() { },     onDeactivate: function() { },     beforeClose: function() { },      afterShow: function() { },      afterClose: function() { },     caption : function( instance, item ) {var testing = jQuery(this).context.title;var caption = jQuery(this).data('caption') || '';if ( item.type === 'image' && testing.length ) {caption = (caption.length ? caption + '<br />' : '') + '<p class="caption-title">'+testing+'</p>' ;}return caption;},
+   afterLoad : function( instance, current ) {current.$content.append('<div class=\"fancybox-custom-caption\" style=\" position: absolute;left:0;right:0;color:#000;padding-top:10px;bottom:-50px;margin:0 auto;text-align:center; \">' + current.opts.caption + '</div>');},
+       });
+
+})
+</script>  -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135434777-2"></script>  -->
+    <!--  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-135434777-2');</script> <script>var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dd3fd467ee4d41fae8c079b5ed1ab2ee";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>  -->
+    <script type="text/javascript">
+        if ( !!window.ActiveXObject || "ActiveXObject" in window ) { //is IE?
+            alert( '请抛弃万恶的IE系列浏览器吧。' );
+        }
+    </script>
+</head>
+<style type="text/css">
+  .t-td{
+    border-top: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+  }
+  /*table{font-size: 14px;color: #5a5a5a; width: 100%;table-layout: fixed;}
+table thead tr th{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+table thead tr th:first-child{width:10%;}
+table tbody tr td>div{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}*/
+.table-container
+{
+width: 100%;
+overflow-y: auto;
+_overflow: auto;
+margin: 0 0 1em;
+}
+table{border:0; border-collapse:collapse;}
+table td,table th{border:1px solid #999; padding:.5em 1em}
+//添加IOS下滚动条
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid black;
+background-color: rgba(0, 0, 0, .3);
+}
+</style>
+<body class="page-template page-template-page-links page-template-page-links-php page page-id-688">
+<section id="main-container">
+    <div class="headertop filter-nothing">
+        <!-- <figure id="centerbg" class="centerbg" style="background-image: url(https://ae01.alicdn.com/kf/Hb097a6a74cfc4105817ffea7b58715e4b.jpg);" title="MOCUISHLE">
+          <div class="focusinfo">
+            <div class="header-tou">
+              <a href="https://ley.best" >
+                <img src="https://pic.superbed.cn/item/5dcbad2d8e0e2e3ee9db034e.png" alt="MOCUISHLE"></a>
+              </div>
+              <div class="header-info">
+                <p>i want every single piece of you</p>
+              </div>
+              <div class="top-social">
+                <li class="wechat">
+                  <a href="#">
+                    <div class="social_img" style="background-position:center -485px">
+                    </div>
+                  </a>
+                  <div class="wechatInner">
+                    <img src="https://ae01.alicdn.com/kf/U00c56565ff504bd3b3af49a19153d6497.jpg" alt="微信公众号"></div>
+                  </li>
+                  <li>
+                    <a href="https://weibo.com/21AJ" target="_blank" class="social-sina" title="sina">
+                      <div class="social_img" style="background-position: center -365px"></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://space.bilibili.com/39767964" target="_blank" class="social-bili" title="bilibili">
+                      <div class="social_img" style="background-position:center -45px"></div>
+                    </a>
+                  </li>
+                  <li><a href="https://music.163.com/#/user/59967939" target="_blank" class="social-wangyiyun" title="CloudMusic">
+                    <div class="social_img" style="background-position:center -445px"></div>
+                  </a>
+                </li>
+              </div>
+            </div>
+            <img src="https://ae01.alicdn.com/kf/Hb097a6a74cfc4105817ffea7b58715e4b.jpg" alt="右键下载背景图"  style="position: absolute; bottom: 90px;right: 5px; width: 32px; height: 32px; padding: 1px;z-index: 100;border-radius: 100%;object-fit: cover">
+          </figure> -->
+        <div id="video-container" style="">
+            <video id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto"></video>
+            <div id="video-btn" class="loadvideo videolive" ></div>
+            <div id="video-add" ></div>
+            <div class="video-stu"></div>
+        </div>
+    </div>
+    <div id="page" class="site wrapper">
+        <header class="site-header" role="banner">
+            <div class="site-top"><div class="site-branding">
+                <div  id="tiaodan" class="site-logo">
+                    <a href="#">
+                        <img  src="https://ae01.alicdn.com/kf/U0e1f3b3d476048c1a6034e6ca0009aa7i.jpg" alt="MOCUISHLE">
+                    </a>
+                </div>
+            </div>
+                <!-- <div class="header-user-avatar">
+                 <a href="https://ley.best/login/">
+                  <i class="iconfont icon-people"></i>
+                </a>
+                <div class="header-user-menu">
+                  <div class="herder-user-name no-logged">是否登录?
+                    <a href="https://ley.best/login/">登录</a>
+                  </div>
+                </div>
+              </div> -->
+                <!-- <div class="searchbox">
+                  <i class="iconfont js-toggle-search icon-search"></i>
+                </div> -->
+                <div class="lower">
+                    <div id="show-nav" class="hideNav">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                    <nav class="navbar">
+                        <ul id="menu-hey" class="menu">
+                            <li>
+                                <a href="#">我的任务</a>
+                            </li>
+                            <li>
+                                <a href="#">添加任务</a>
+                            </li>
+                            <li>
+                                <a href="#">会员充值</a>
+                            </li>
+                            <li>
+                                <a href="#">个人中心</a>
+                            </li>
+                            <!-- <li>
+                              <a target="_blank" rel="noopener noreferrer" href="https://music.ley.best">Music</a>
+                              <ul class="sub-menu">
+                                <li>
+                                  <a href="https://music.ley.best">Online music</a>
+                                </li>
+                                <li>
+                                  <a href="http://ley.best/music/">Music Collections</a>
+                                </li>
+                                <li>
+                                    <a href="https://ley.best/mikutap/">Mikutap</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="current-menu-item">
+                                <a href="https://ley.best/links/" aria-current="page">Links</a>
+                              </li>
+                              <li>
+                                <a href="https://ley.best">Cloud</a>
+                                <ul class="sub-menu">
+                                  <li>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://gd.ley.best">GoogleDrive</a>
+                                  </li>
+                                  <li>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://od.ley.best">Onedrive</a>
+                                  </li>
+                                  <li>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://kod.ley.best">Kod</a>
+                                  </li>
+                                </ul>
+                              </li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="blank">
+        </div>
+        <div id="content" class="site-content">
+          <div>
+            <!-- <div style="width: 49%;height: 30px;text-align: center;float: left;border-bottom: 1px solid #000">普通模式</div> -->
+            <div id="title-div" style="width: 100%;height: 30px;text-align: center;float: right;border-bottom: 1px solid #000;background-color: #69d2e7">
+              添加任务
+            </div>
+          </div>
+          <div style="margin-top: 50px" id="div-content">
+            <div>
+              <!-- <form> -->
+                <label>输入任务名称：</label>
+                  <input type="text" name="jobName"><span class="jobName-span" style="color: red"></span>
+                  <br>
+                <label>选择页面样式：</label>
+                <select id='jobType-select' onchange="jobTypeChange(this)">
+                  <option value ="1">分页</option>
+                  <option value ="2">瀑布流(带加载按钮)</option>
+                  <option value="3">瀑布流(不带加载按钮)</option>
+                  <option value ="0">无分页</option>
+                </select>
+                <br>
+                <div class="view-fenye">
+                  <div>
+                  <label>输入采集地址：</label>
+                  <input type="text" name="jobUrl"><span class="jobUrl-span" style="color: red"></span>
+                  <br>
+                  </div>
+
+                  <div class="jobContent-div">
+                  <label>输入采集模块：</label>
+                  <input type="text" name="jobContent"><span class="jobContent-span" style="color: red"></span>
+                  <br>
+                  </div>
+                  
+                  <div class="jobNext-div">
+                  <label>输入'下一页'元素：</label>
+                  <input type="text" name="jobNext"><span class="jobNext-span" style="color: red"></span>
+                  <br>
+                  </div>
+                  <button id="test-job" onclick="testJob()">预览数据</button>
+                  <span id="test-span" style="display: none;">正在获取,请耐心等待...</span>
+                </div>
+              <!-- </form> -->
+            </div>
+            <div style="margin-top: 30px">
+              <div style="height: 30px;text-align: center;"><span>采集数据预览(最多展示10条数据)：</span></div>
+              <div class="table-container">
+              <table style="width: 100%;">
+                <thead>
+                  
+                  <tr style="height: 30px;background-color: #69d2e7" id="th-tr">
+                    <!-- <th>文章标题</th>
+                    <th>发布时间</th>
+                    <th>作者</th>
+                    <th>浏览量</th>
+                    <th>点赞量</th> -->
+                  </tr>
+                </thead>
+                <tbody id="tbody-content" class="applytable">
+                  <!-- <tr>
+                    <td class="t-td">《假如给我三天光明》</td>
+                    <td class="t-td">2020-02-16</td>
+                    <td class="t-td">张海迪</td>
+                    <td class="t-td">278万</td>
+                    <td class="t-td">5621</td>
+                  </tr>
+                  <tr>
+                    <td class="t-td">《朝花夕拾》</td>
+                    <td class="t-td">2020-02-16</td>
+                    <td class="t-td">鲁迅</td>
+                    <td class="t-td">278万</td>
+                    <td class="t-td">5621</td>
+                  </tr>
+                  <tr>
+                    <td class="t-td">《如何讨取富婆欢心》</td>
+                    <td class="t-td">2020-02-16</td>
+                    <td class="t-td">周树人</td>
+                    <td class="t-td">278万</td>
+                    <td class="t-td">5621</td>
+                  </tr> -->
+                </tbody>
+              </table>
+            </div> 
+            </div>
+            <div id="submit-div" style="text-align: right;margin-top: 30px;display: none;"><button onclick="addJob()">添加任务</button></div>
+          </div>  
+        </div>
+    </div>
+    <div class="openNav">
+        <div class="iconflat">
+            <div class="icon">
+
+            </div>
+        </div>
+        <div class="site-branding">
+            <div class="site-logo">
+                <a href="#" >
+                    <img src="https://ae01.alicdn.com/kf/U0e1f3b3d476048c1a6034e6ca0009aa7i.jpg" alt="MOCUISHLE">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="mo-nav">
+    <div class="m-avatar">
+        <img src="https://pic.superbed.cn/item/5dcbad2d8e0e2e3ee9db034e.png">
+    </div>
+    <!-- <div class="m-search">
+      <form class="m-search-form" method="get" action="https://ley.best" role="search">
+        <input class="m-search-input" type="search" name="s" placeholder="搜索..." required></form>
+        </div> -->
+    <ul id="menu-hey-1" class="menu">
+        <li>
+            <a href="#">我的任务</a>
+        </li>
+
+        <li>
+            <a href="#">添加任务</a>
+        </li>
+        <li>
+            <a href="#">会员充值</a>
+        </li>
+        <li>
+            <a href="#">个人中心</a>
+        </li>
+        <!-- <li>
+          <a target="_blank" rel="noopener noreferrer" href="https://music.ley.best">Music</a>
+          <ul class="sub-menu">
+            <li>
+              <a href="https://music.ley.best">Online music</a>
+              </li>
+              <li>
+                <a href="http://ley.best/music/">Music Collections</a></li><li><a href="https://ley.best/mikutap/">Mikutap</a>
+                  </li>
+                  </ul>
+                  </li>
+                  <li class="current-menu-item">
+                    <a href="https://ley.best/links/" aria-current="page">Links</a></li><li>
+                    <a href="https://ley.best">Cloud</a>
+                    <ul class="sub-menu"><li>
+                      <a target="_blank" rel="noopener noreferrer" href="https://gd.ley.best">GoogleDrive</a>
+                      </li>
+                      <li>
+                        <a target="_blank" rel="noopener noreferrer" href="https://od.ley.best">Onedrive</a>
+                        </li>
+                        <li>
+                          <a target="_blank" rel="noopener noreferrer" href="https://kod.ley.best">Kod</a>
+                          </li>
+                          </ul>
+                          </li> -->
+    </ul>
+</div>
+<a href="#" class="cd-top"></a>
+<div id="loading">
+    <div id="loading-center">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+</div>
+<!-- <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info">
+        <div class="footertext">
+            <p class="foo-logo" style="background-image: url('https://ley21.oss-accelerate.aliyuncs.com/wp-content/img/f-logo.png');">
+
+            </p>
+            <p>&copy; 2019</p>
+        </div>
+        <div class="footer-device">
+            <span style="color: #4876ff;">IDIOT&nbsp;MOCUISHLELIN &nbsp;&nbsp;</span>
+            <span>|&nbsp;Copyright © 2019 . All rights reserved. | </sapn> &nbsp;  &nbsp; <a href="http://skyarea.cn" rel="designer" target="_blank" rel="nofollow">| Theme</a> &nbsp; <a title="I MISS U" href="https://mocuishlelin.xyz/media/imissu.jpg" target="_blank" >| Made with &nbsp;<i class="fa fa-heart throb" style="color:#d43f57"> </i> &nbsp;  by Mo.</a>
+                                                                    <div></div>
+                                                                    <div class="footer-device"> <SPAN id=span_dt_dt></SPAN>
+
+                                                                      <SCRIPT language=javascript>function show_date_time(){
+                                                                          window.setTimeout("show_date_time()", 1000);
+                                                                          BirthDay=new Date("02/3/2019 17:00:00");//这个日期是可以修改的
+                                                                          today=new Date();
+                                                                          timeold=(today.getTime()-BirthDay.getTime());
+                                                                          sectimeold=timeold/1000
+                                                                          secondsold=Math.floor(sectimeold);
+                                                                          msPerDay=24*60*60*1000
+                                                                          e_daysold=timeold/msPerDay
+                                                                          daysold=Math.floor(e_daysold);
+                                                                          e_hrsold=(e_daysold-daysold)*24;
+                                                                          hrsold=Math.floor(e_hrsold);
+                                                                          e_minsold=(e_hrsold-hrsold)*60;
+                                                                          minsold=Math.floor((e_hrsold-hrsold)*60);
+                                                                          seconds=Math.floor((e_minsold-minsold)*60);
+                                                                          span_dt_dt.innerHTML="MOCUISHLE"+"已默默运行了："+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+                                                                      }
+                                                                      show_date_time();</script>
+              </div>
+        </div>
+    </div>
+</footer> -->
+<script type="text/javascript" language="javascript">
+    if(window.console&&window.console.log){
+        console.log('你想干嘛！');
+        console.log('不要搞破坏！');
+        console.log('have fun');
+        console.log("%c白白","color:red");
+    }</script>
+<!-- <script src="https://cdn.bootcss.com/font-awesome/5.12.1/js/all.js"></script>  -->
+<!-- <script src="https://cdn.bootcss.com/font-awesome/5.12.1/js/all.min.js"></script> -->
+<script type='text/javascript'>
+    var Poi = 1;
+    // var Poi = {"pjax":"1","movies":{"url":"https:\/\/formian.oss-accelerate.aliyuncs.com","name":"cc,VV","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"https:\/\/ley.best\/wp-admin\/admin-ajax.php","order":"asc","formpostion":"bottom"};
+</script>
+<!-- <script>
+  if (screen && screen.width > 800) {
+// document.write('<script src="https://ley.best/wp-content/themes/ASky/js/canvas-nest.min.js" type="text/javascript"><\/script>');
+document.write('<script src="https://ley21.oss-accelerate.aliyuncs.com/wp-content/js/canvas-nest.min.js" type="text/javascript"><\/script>');
+}
+</script> -->
+<!-- <script>
+ jQuery(document).ready(function($) {
+//你的代码
+ $('body').show();
+   $('.version').text(NProgress.version);
+   NProgress.start();
+   setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 1000);
+});
+</script> -->
+<div id="black_mask" class="black_mask"></div>
+<script defer src="/javascripts/autoptimize_d53af4d6bafc72264120246a7ba5cf78.js">
+
+</script>
+<script type="text/javascript">
+if (<%= locals.result %> == 1){
+  $("#title-div").text('修改任务');
+  switch('<%= locals.job_type %>') {
+     case '1':
+        $('.jobNext-div').css('display','block');
+        $('.jobNext-div > label').text("输入'下一页'元素：");
+        cleanSpanText();
+        break;
+     case '2':
+        $('.jobNext-div').css('display','block');
+        $('.jobNext-div > label').text("输入'加载'元素：");
+        cleanSpanText();
+        break;
+     case '3':
+        $('.jobNext-div').css('display','none');
+        cleanSpanText();
+        break;
+     case '0':
+        $('.jobNext-div').css('display','none');
+        cleanSpanText();
+        break;
+  }
+  // $.ajax({
+  //       url: "./addJob/addJob",
+  //       type: "POST",
+  //       data:{jobName:jobNameFlag,jobType:jobTypeFlag,jobUrl:jobUrlFlag,jobContent:jobContentFlag,jobNext:jobNextFlag},
+  //       contextType: "application/json",
+  //       success: function (res) {
+  //           if (res['msg'] == 0) {
+  //               // location.href='/';
+  //             }
+  //             // console.log('==='+res['msg']);
+  //           },
+  //       error: function (err) {}
+  // }); 
+  var job_content = "<%= locals.job_content %>";
+  $("input[name='jobName']").val("<%= locals.job_name %>");
+  $('#jobType-select').val(<%= locals.job_type %>);
+  $("input[name='jobUrl']").val('<%= locals.job_url %>');
+  $("input[name='jobContent']").val(job_content.replace('&gt;','>'));
+  $("input[name='jobNext']").val('<%= locals.job_next %>');
+}
+
+var jobTypeFlag;
+var jobNameFlag;
+var jobUrlFlag;
+var jobContentFlag;
+var jobNextFlag;
+
+function jobTypeChange(res){
+  switch(res.value) {
+     case '1':
+        $('.jobNext-div').css('display','block');
+        $('.jobNext-div > label').text("输入'下一页'元素：");
+        cleanSpanText();
+        break;
+     case '2':
+        $('.jobNext-div').css('display','block');
+        $('.jobNext-div > label').text("输入'加载'元素：");
+        cleanSpanText();
+        break;
+     case '3':
+        $('.jobNext-div').css('display','none');
+        cleanSpanText();
+        break;
+     case '0':
+        $('.jobNext-div').css('display','none');
+        cleanSpanText();
+        break;
+} 
+}
+
+function testJob(){
+  $("#tbody-content").html("");
+  $("#test-span").css("display","block");
+  $('#submit-div').css('display','none');
+        var jobName = $("input[name='jobName']").val();
+        var jobType = $('#jobType-select').val();
+        var jobUrl = $("input[name='jobUrl']").val();
+        var jobContent = $("input[name='jobContent']").val();
+        var jobNext = $("input[name='jobNext']").val();
+  switch(jobType) {
+     case '1':
+        if(jobName.length<1 || jobUrl.length<1 || jobContent.length<1  || jobNext.length<1){
+            if (jobName.length<1) {$('.jobName-span').text('请输入必填项');}else{$('.jobName-span').text('');}
+            if (jobUrl.length<1) {$('.jobUrl-span').text('请输入必填项');}else{$('.jobUrl-span').text('');}
+            if (jobContent.length<1) {$('.jobContent-span').text('请输入必填项');}else{$('.jobContent-span').text('');}
+            if (jobNext.length<1) {$('.jobNext-span').text('请输入必填项');}else{$('.jobNext-span').text('');}
+        }else{
+            cleanSpanText();
+            console.log('okok');
+            jobTypeFlag = jobType;
+            jobNameFlag = jobName;
+            jobUrlFlag = jobUrl;
+            jobContentFlag = jobContent;
+            jobNextFlag = jobNext;
+            $.ajax({
+            url: "./addJob/testJob",
+            type: "POST",
+            data:{jobName:jobNameFlag,jobType:jobTypeFlag,jobUrl:jobUrlFlag,jobContent:jobContentFlag,jobNext:jobNextFlag},
+            contextType: "application/json",
+            success: function (res) {
+              $('#th-tr').html('');
+              for(var i = 0;i<res['keyArray'].length;i++){
+                  $('#th-tr').append('<th></th>');
+              }
+              $('#tbody-content').html('');
+              for(var i = 1;i<=10;i++){
+                $('#tbody-content').append("<tr class='tbody-content-"+i+"'></tr>");
+                for(var j = 0;j<res['keyArray'].length;j++){
+                  if(res['resultData'][i][res['keyArray'][j]] != undefined){
+                    $(".tbody-content-"+i+"").append("<td>"+res['resultData'][i][res['keyArray'][j]]+"</td>");
+                  }else{
+                    $(".tbody-content-"+i+"").append("<td></td>");
+                  }
+                }
+              }
+              $('#submit-div').css('display','block');
+            },
+            error: function (err) {
+            }
+            });
+        }
+        break;
+     case '2':
+        if(jobName.length<1 || jobUrl.length<1 || jobContent.length<1  || jobNext.length<1){
+            if (jobName.length<1) {$('.jobName-span').text('请输入必填项');}else{$('.jobName-span').text('');}
+            if (jobUrl.length<1) {$('.jobUrl-span').text('请输入必填项');}else{$('.jobUrl-span').text('');}
+            if (jobContent.length<1) {$('.jobContent-span').text('请输入必填项');}else{$('.jobContent-span').text('');}
+            if (jobNext.length<1) {$('.jobNext-span').text('请输入必填项');}else{$('.jobNext-span').text('');}
+        }else{
+            cleanSpanText();
+            console.log('ok');
+        }
+        break;
+     case '3':
+        if(jobName.length<1 || jobUrl.length<1 || jobContent.length<1 ){
+            if (jobName.length<1) {$('.jobName-span').text('请输入必填项');}else{$('.jobName-span').text('');}
+            if (jobUrl.length<1) {$('.jobUrl-span').text('请输入必填项');}else{$('.jobUrl-span').text('');}
+            if (jobContent.length<1) {$('.jobContent-span').text('请输入必填项');}else{$('.jobContent-span').text('');}
+        }else{
+            cleanSpanText();
+            console.log('ok');
+        }
+        break;
+     case '0':
+        if(jobName.length<1 || jobUrl.length<1 || jobContent.length<1 ){
+            if (jobName.length<1) {$('.jobName-span').text('请输入必填项');}else{$('.jobName-span').text('');}
+            if (jobUrl.length<1) {$('.jobUrl-span').text('请输入必填项');}else{$('.jobUrl-span').text('');}
+            if (jobContent.length<1) {$('.jobContent-span').text('请输入必填项');}else{$('.jobContent-span').text('');}
+        }else{
+            cleanSpanText();
+            console.log('ok');
+            jobTypeFlag = jobType;
+            jobNameFlag = jobName;
+            jobUrlFlag = jobUrl;
+            jobContentFlag = jobContent;
+            jobNextFlag = jobNext;
+            $.ajax({
+            url: "./addJob/testJob",
+            type: "POST",
+            data:{isUpdate:'<%= locals.result %>',jobTrueName:'<%= locals.job_name %>',userId:1,jobName:jobNameFlag,jobType:jobTypeFlag,jobUrl:jobUrlFlag,jobContent:jobContentFlag,jobNext:jobNextFlag},
+            contextType: "application/json",
+            success: function (res) {
+              // $("#test-span").css("display","none");
+              //   $("#test-jop").css("display","block");
+              //判断任务名称是否已存在
+              if (res==-1) {
+                alert('操作频繁,请稍后再试哦~');
+                $("#test-span").css("display","none");
+                return;
+              }
+              if (res == 0) {
+                alert('任务名称已存在');
+                $("#test-span").css("display","none");
+                return;
+              }
+              if (res['msg'] == 1) {
+                $("#test-span").css("display","none");
+              //构造预览表格
+              $('#th-tr').html('');
+              for(var i = 0;i<=res['keyArray'].length;i++){
+                  $('#th-tr').append('<th></th>');
+              }
+              $('#tbody-content').html('');
+              for(var i = 1;i<=10;i++){
+                $('#tbody-content').append("<tr class='tbody-content-"+i+"'></tr>");
+                for(var j = 0;j<res['keyArray'].length;j++){
+                  if(res['resultData'][i][res['keyArray'][j]] != undefined){
+                    $(".tbody-content-"+i+"").append("<td>"+res['resultData'][i][res['keyArray'][j]]+"</td>");
+                  }else{
+                    $(".tbody-content-"+i+"").append("<td></td>");
+                  }
+                }
+              }
+              $('#submit-div').css('display','block');
+            }else if(res['msg'] == 5){
+              $("#test-span").css("display","none");
+                console.log('用户取消采集');
+            }else if(res['msg'] == 0){
+              $("#test-span").css("display","none");
+                console.log('未知原因导致执行失败,请删除本任务重新创建');
+                alert('未知原因导致执行失败,请删除本任务重新创建');
+            }else if(res['msg'] == 2){
+              $("#test-span").css("display","none");
+                console.log('意外关闭或刷新导致失败');
+                alert('意外关闭或刷新导致失败');
+            }else if(res['msg'] == 3){
+              $("#test-span").css("display","none");
+                console.log('获取失败：网址不正确或访问超时,请填写正确的采集网址');
+                alert('获取失败：网址不正确或访问超时,请填写正确的采集网址');
+            }else if(res['msg'] == 4){
+              $("#test-span").css("display","none");
+                console.log('获取采集模块失败或模块子节点长度为0,请填写正确的采集模块');
+                alert('获取采集模块失败或模块子节点长度为0,请填写正确的采集模块');
+            }
+            },
+            error: function (err) {
+            }
+            });
+        }
+        break;
+}
+  
+  // $.ajax({
+  //     url: "./addJob/testJob",
+  //     type: "POST",
+  //     data:{name:'鲁班大师',iq:'250'},
+  //     contextType: "application/json",
+  //     success: function (res) {
+  //       console.log(eval('('+res+')'))
+  //     },
+  //     error: function (err) {
+  //     }
+  //   });
+
+
+}
+
+function cleanSpanText(){
+    $('.jobUrl-span').text('');
+    $('.jobContent-span').text('');
+    $('.jobNext-span').text('');
+}
+
+function addJob(){
+
+  $.ajax({
+            url: "./addJob/addJob",
+            type: "POST",
+            data:{isUpdate:'<%= locals.result %>',jobId:'<%= locals.job_id %>',jobName:jobNameFlag,jobType:jobTypeFlag,jobUrl:jobUrlFlag,jobContent:jobContentFlag,jobNext:jobNextFlag},
+            contextType: "application/json",
+            success: function (res) {
+              if (res['msg'] == 0) {
+                if ('<%= locals.result %>' == 1) {
+                  alert('更新成功,若无需再次修改，可关闭此页面');
+                }else{
+                  alert('添加成功');
+                }
+              }
+              // console.log('==='+res['msg']);
+            },
+            error: function (err) {
+            }
+            });
+}
+</script>
+
+<script type="text/javascript">
+  if(window.WebSocket){
+    var ws = new WebSocket('ws://localhost:8002');
+
+    ws.onopen = function(e){
+      console.log("连接服务器成功");
+      // 向服务器发送消息
+      ws.send("我是01听到请回答over");
+    }
+    ws.onclose = function(e){
+      console.log("服务器关闭");
+    }
+    ws.onerror = function(){
+      console.log("连接出错");
+    }
+    // 接收服务器的消息
+    ws.onmessage = function(e){
+      let message = "message:"+e.data+"";
+      console.log(message);
+    }   
+  }else{$body.html('');alert('请升级或更换为支持websocket的浏览器,否则无法使用本站服务')}
+</script>
+</body>
+</html>
+
+
+
