@@ -74,7 +74,7 @@ if (!(isExistNext == -1)) {
 
         await page.evaluate(async(res) => document.querySelector(res).click(),clickFlag);
         await page.waitForNavigation();//等待跳转结束
-
+            
         await sleep(2000);
         clickOutHtml = await page.$eval(clickFlag, el => el.outerHTML);
         isExistNext = await clickOutHtml.indexOf('onclick="set_page_num');
